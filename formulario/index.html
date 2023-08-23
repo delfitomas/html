@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Familjen+Grotesk&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Familjen+Grotesk&family=Raleway&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<header>
+    <div id="hd">
+        <div id="navig">
+            <nav>
+                <ul id="listnav">
+                    <li>
+                        <a href="https://store.taylorswift.com/" class="navitem" id="Merch" target="_blank">Merch</a>
+                    </li>
+                    <li>
+                        <a href="https://tstheerastour.taylorswift.com/" class="navitem" id="Tour"
+                            target="_blank">Tour</a>
+                    </li>
+                    <li>
+                        <a href="#elform" id="Newsletter" class="navitem">Newsletter</a>
+                    </li>
+                    <li>
+                        <a href="https://digital.umusic.com/taylorswiftmidnights" class="navitem" id="Midnights"
+                            target="_blank">TS Midnights</a>
+                    </li>
+                    
+                </ul>
+            </nav>
+            <div id="titulo">
+                <a href="index.html"  > <img src="./imagenes/1989_tv_logo-600x106.png" width="200px" height="40px"></a>
+            </div>
+        </div>
+    </div>
+</header>
+<br>
+<body>
+    
+    <div id="inicio">
+        <div id="imageninicio">
+            <a href="https://store.taylorswift.com/" target="_blank"><img src="./imagenes/fotoinicio.jpg" id="imginicio"></a>
+        </div>
+        <div id="theerastour">
+            <a href="https://tstheerastour.taylorswift.com/" target="_blank"><img src="./imagenes/tet.jpg" id="imgtet"></a>
+        </div>
+    </div>
+    
+    <div id="elform">
+        <form action="https://formspree.io/f/myyqwwgv" method="post" id="Formulario">
+            <h1>Registrate para recibir noticias de Taylor Swift</h1>
+            <p>Completa los datos solicitados y selecciona el botón enviar</p>
+            <label for="Nombre">Nombre completo:</label>
+            <input type="text" name="Nombre" id="Nombre" required>
+            <br>
+            <label for="Apellido">Apellido:</label>
+            <input type="text" name="Apellido" id="Apellido" required>
+            <br>
+            <label for="Sexo">Determina tu sexo:</label>
+            <select name="Sexo" id="Sexo" required>
+                <option value="masc">Masculino</option>
+                <option value="fem">Femenino</option>
+                <option value="nd">Prefiero no decirlo</option>
+            </select>
+            <br>
+            <label for="Edad">Edad:</label>
+            <input type="number" name="Edad" id="Edad" required>
+            <br>
+            <label for="Nacimiento">Fecha de nacimiento:</label>
+            <input type="date" id="Nacimiento" name="Nacimiento" value="1989-12-13" min="1950-01-01" max="2023-12-31"
+                required>
+                <br>
+            <label>Mail:
+                <input type="email" name="Mail" id="Mail" placeholder="ejemplo@ejemplo.com" required></label>
+                <br>
+            <label for="User">Cree un nombre de usuario:</label>
+            <input type="text" name="User" id="User" required>
+            <br>
+            <label for="Contraseña">Contraseña:</label>
+            <input type="password" name="Contraseña" id="Contraseña" placeholder="Minimo 6 caracteres" maxlength="22"
+                minlength="6" required>
+                <br>
+            <label for="Rcontraseña">Repita la contraseña:</label>
+            <input type="password" name="Rcontraseña" id="Rcontraseña" maxlength="22" minlength="6"
+                required>
+                <br>
+            <input type="submit" value="Enviar" id="Enviando" required>
+        </form>
+    </div>
+    <hr>
+    <footer>
+        <h3>Gracias por sumarte!</h3>
+        <ul>
+            <h4 id="Ayuda">Ayuda</h4>
+            <li> <a href="">Contactanos</a></li>
+            <br>
+            <li> <a href="">Preguntas frecuentes</a></li>
+            <br>
+            <li> <a href="">Políticas de privacidad</a></li>
+            <br>
+            <li> <a href="">Términos y condiciones</a></li>
+        </ul>
+        <ul>
+            <h4 id="Redes">Redes</h4>
+            <a href="https://www.instagram.com/delfitomas/#" target="_blank"><img src="./imagenes/instagram png.png"
+                    width="100" height="100"></a>
+            <a href="https://twitter.com/delfi_tomas" target="_blank"><img src="./imagenes/twitter png.png" width="100"
+                    height="100"></a>
+        </ul>
+
+    </footer>
+</body>
+
+</html>

@@ -1,0 +1,65 @@
+.navitem {
+    text-decoration: none;
+    color: #5d5d5e ;
+    border: 1px solid gray;
+}
+#imginicio {
+    height: 500% ;
+    width: 100%;
+    border-radius: 6.5%;
+}
+li{
+    border: 1px;
+    border-color: black;
+    display: inline;
+}
+nav{
+    padding-top: 0 ;
+    padding-bottom: 0 ;
+    width: 100%;
+    top: 0;
+    box-shadow: none;
+    padding: 0 10px;
+    font-family: 'Cutive Mono', monospace;
+    word-spacing: 7px;
+    text-decoration: #5d5d5e ;
+    
+}
+#titulo {
+    text-align: center;
+}
+#Formulario {
+   text-align: center;
+   margin-top: 5%;
+   margin-bottom: 3%;
+   font-family: 'Rubik', sans-serif;
+   background-image: url(https://www.betterwood.de/wp-content/uploads/2017/08/Garapa-Element.jpg);
+   background-size: cover;
+}
+input{
+    margin-bottom: 1%;
+}
+input:focus {
+    background-color: #CDC9CE;
+}
+select{
+    margin-bottom: 1%;
+}
+body{
+    background-color: #CDC9CE  ;
+}
+footer{
+    font-family: 'Rubik', sans-serif;
+}
+a{ 
+    text-decoration: none;
+}
+#imgtet{
+    margin: auto;
+    width: 100%;
+}
+#theerastour{
+    margin-top: 5%;
+}
+
+
